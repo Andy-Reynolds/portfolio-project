@@ -1,4 +1,8 @@
-nav {
+header {
+  background-color: #CFDEE7;
+  height: 500px;
+}
+header nav {
   background-color: #001A4D;
   color: white;
   height: 50px;
@@ -6,21 +10,27 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav .logo {
+header nav .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 15%;
 }
-nav .links {
+header nav .links {
   width: 45%;
   display: flex;
 }
-nav .links a {
+header nav .links a {
   width: 20%;
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
 }
