@@ -2,7 +2,7 @@ header {
   background-color: #CFDEE7;
   height: 500px;
 }
-header nav {
+header .nav-bar {
   background-color: #001A4D;
   color: white;
   height: 50px;
@@ -10,17 +10,17 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
-header nav .logo {
+header .nav-bar__logo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 15%;
 }
-header nav .links {
+header .nav-bar__links {
   width: 45%;
   display: flex;
 }
-header nav .links a {
+header .nav-bar__links a {
   width: 20%;
   color: white;
   text-decoration: none;

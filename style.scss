@@ -4,7 +4,7 @@ header {
   background-color: #CFDEE7;
   height: 500px;
 
-  nav {
+  .nav-bar {
     background-color: #001A4D;
     color: white;
     height: 50px;
@@ -12,14 +12,14 @@ header {
     display: flex;
     justify-content: space-between;
 
-    .logo {
+    &__logo {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 15%;
     }
 
-    .links {
+    &__links {
       width: 45%;
       display: flex;
 
@@ -48,6 +48,6 @@ header {
 
 body {
 
-  
+
 
 }
