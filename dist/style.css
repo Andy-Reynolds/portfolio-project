@@ -1,3 +1,26 @@
-h1 {
-  color: red;
+nav {
+  background-color: #001A4D;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+nav .links {
+  width: 45%;
+  display: flex;
+}
+nav .links a {
+  width: 20%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
