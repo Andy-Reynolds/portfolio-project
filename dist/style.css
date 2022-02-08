@@ -172,3 +172,24 @@ body .skills .skills__section-two .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/1/9/7;
 }
+body .contact-bar {
+  background-color: #001A4D;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+}
+body .contact-bar__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+body .contact-bar__links {
+  display: flex;
+  justify-content: center;
+}
+body .contact-bar__links--icons {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}

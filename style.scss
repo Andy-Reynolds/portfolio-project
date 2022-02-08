@@ -235,4 +235,30 @@ body {
 
   }
 
+  .contact-bar {
+    background-color: #001A4D;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+    }
+
+    &__links {
+      display: flex;
+      justify-content: center;
+
+      &--icons {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+  }
+
 }
