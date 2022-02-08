@@ -50,13 +50,13 @@ body {
 
   .about-me {
 
-    .section-header__about-me {
+    .about-me__header {
       color: red;
       display: flex;
       justify-content: center;
     }
 
-    .section__about-me {
+    .about-me__section {
       display: grid;
       grid-template: repeat(9 1fr);
       margin-inline: auto;
@@ -80,13 +80,33 @@ body {
 
   .projects {
 
-    .section-header__projects {
+    .projects__header {
       color: red;
       display: flex;
       justify-content: center;
     }
 
-    .section__projects {
+    .projects__section-one {
+      display: grid;
+      grid-template: repeat(9 1fr);
+      margin-inline: auto;
+      width: 100%;
+      height: 50vh;
+      border: 2px solid black;
+
+      .background-square {
+        background-color: #F1F2F2;
+        grid-area: 1/1/8/9;
+      }
+
+      .rounded-square {
+        background-color: #CFDEE7;
+        grid-area: 6/1/9/7;
+      }
+
+    }
+
+    .projects__section-two {
       display: grid;
       grid-template: repeat(9 1fr);
       margin-inline: auto;
@@ -102,6 +122,76 @@ body {
       .rounded-square {
         background-color: #CFDEE7;
         grid-area: 6/3/9/9;
+      }
+
+    }
+
+    .projects__section-three {
+      display: grid;
+      grid-template: repeat(9 1fr);
+      margin-inline: auto;
+      width: 100%;
+      height: 50vh;
+      border: 2px solid black;
+
+      .background-square {
+        background-color: #F1F2F2;
+        grid-area: 1/1/8/9;
+      }
+
+      .rounded-square {
+        background-color: #CFDEE7;
+        grid-area: 6/1/9/7;
+      }
+
+    }
+
+  }
+
+  .skills {
+
+    .skills__header {
+      color: red;
+      display: flex;
+      justify-content: center;
+    }
+
+    .skills__section-one {
+      display: grid;
+      grid-template: repeat(9 1fr);
+      margin-inline: auto;
+      width: 100%;
+      height: 50vh;
+      border: 2px solid black;
+
+      .background-square {
+        background-color: #F1F2F2;
+        grid-area: 1/1/8/9;
+      }
+
+      .rounded-square {
+        background-color: #CFDEE7;
+        grid-area: 6/3/9/9;
+      }
+
+    }
+
+    .skills__section-two {
+      display: grid;
+      grid-template: repeat(9 1fr);
+      margin-inline: auto;
+      width: 100%;
+      height: 50vh;
+      border: 2px solid black;
+
+      .background-square {
+        background-color: #F1F2F2;
+        grid-area: 1/1/8/9;
+      }
+
+      .rounded-square {
+        background-color: #CFDEE7;
+        grid-area: 6/1/9/7;
       }
 
     }
