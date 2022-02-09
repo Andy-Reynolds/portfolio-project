@@ -19,6 +19,28 @@ header {
     display: flex;
     justify-content: space-between;
 
+    .toggle-button {
+      position: absolute;
+      top: .75rem;
+      right: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
+
+      .bar {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+      }
+    }
+
     &__logo {
       display: flex;
       justify-content: center;
@@ -28,7 +50,11 @@ header {
 
     &__links {
       width: 45%;
-      display: flex;
+      display: none;
+
+      @media screen and (min-width: 768px) {
+        display: flex;
+      }
 
       a {
         width: 20%;

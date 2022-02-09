@@ -17,6 +17,27 @@ header .nav-bar {
   display: flex;
   justify-content: space-between;
 }
+header .nav-bar .toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+@media screen and (min-width: 768px) {
+  header .nav-bar .toggle-button {
+    display: none;
+  }
+}
+header .nav-bar .toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
 header .nav-bar__logo {
   display: flex;
   justify-content: center;
@@ -25,7 +46,12 @@ header .nav-bar__logo {
 }
 header .nav-bar__links {
   width: 45%;
-  display: flex;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  header .nav-bar__links {
+    display: flex;
+  }
 }
 header .nav-bar__links a {
   width: 20%;
