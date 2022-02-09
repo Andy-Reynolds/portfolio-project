@@ -35,6 +35,10 @@ header .nav-bar__links a {
   align-items: center;
   justify-content: center;
 }
+header .nav-bar__links a:hover {
+  background-color: white;
+  color: #001A4D;
+}
 header h1 {
   display: flex;
   justify-content: center;

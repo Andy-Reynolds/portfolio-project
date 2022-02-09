@@ -37,6 +37,11 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        &:hover {
+          background-color: white;
+          color: #001A4D;;
+        }
       }
 
     }
