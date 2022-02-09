@@ -5,14 +5,14 @@
 
 header {
   background-color: #CFDEE7;
-  height: 500px;
-  border-bottom-left-radius: 50% 30px;
-  border-bottom-right-radius: 50% 30px;
+  height: 800px;
+  border-bottom-left-radius: 50% 60px;
+  border-bottom-right-radius: 50% 60px;
 }
 header .nav-bar {
   background-color: #001A4D;
   color: white;
-  height: 50px;
+  height: 80px;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@ header h1 {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 150px;
+  top: 280px;
 }
 
 body .about-me .about-me__header {
