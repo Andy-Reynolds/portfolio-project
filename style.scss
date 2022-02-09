@@ -21,13 +21,14 @@ header {
 
     .toggle-button {
       position: absolute;
-      top: .75rem;
-      right: 1rem;
+      top: 25px;
+      right: 1.5rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 30px;
-      height: 21px;
+      height: 20px;
+
 
       @media screen and (min-width: 768px) {
         display: none;
