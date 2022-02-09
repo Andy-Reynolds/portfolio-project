@@ -55,14 +55,29 @@ body .about-me .about-me__section {
   height: 50vh;
   border: 2px solid black;
 }
+@media screen and (min-width: 768px) {
+  body .about-me .about-me__section {
+    height: 25vh;
+  }
+}
 body .about-me .about-me__section .background-square {
   background-color: #F1F2F2;
   grid-area: 1/1/8/9;
+}
+@media screen and (min-width: 768px) {
+  body .about-me .about-me__section .background-square {
+    grid-area: 1/1/9/9;
+  }
 }
 body .about-me .about-me__section .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/3/9/9;
   border-radius: 100rem 0px 0px 100rem;
+}
+@media screen and (min-width: 768px) {
+  body .about-me .about-me__section .rounded-square {
+    grid-area: 1/6/9/9;
+  }
 }
 body .projects .projects__header {
   color: red;
@@ -71,7 +86,7 @@ body .projects .projects__header {
 }
 body .projects .projects__section-one {
   display: grid;
-  grid-template: repeat(9 1fr);
+  grid-template: repeat(8 1fr);
   margin-inline: auto;
   width: 100%;
   height: 50vh;
