@@ -113,16 +113,28 @@ body {
       width: 100%;
       height: 70vh;
       border: 2px solid black;
+      
+      @media screen and (min-width: 768px) {
+        height: 40vh;
+      }
 
       .background-square {
         background-color: #F1F2F2;
         grid-area: 1/1/8/9;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/9;
+        }
       }
 
       .rounded-square {
         background-color: #CFDEE7;
         grid-area: 6/1/9/7;
         border-radius: 0px 100rem 100rem 0px;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/4;
+        }
       }
 
     }
@@ -135,15 +147,27 @@ body {
       height: 70vh;
       border: 2px solid black;
 
+      @media screen and (min-width: 768px) {
+        height: 40vh;
+      }
+
       .background-square {
         background-color: #F1F2F2;
         grid-area: 1/1/8/9;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/9;
+        }
       }
 
       .rounded-square {
         background-color: #CFDEE7;
         grid-area: 6/3/9/9;
         border-radius: 100rem 0px 0px 100rem;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/6/9/9;
+        }
       }
 
     }
@@ -156,15 +180,27 @@ body {
       height: 70vh;
       border: 2px solid black;
 
+      @media screen and (min-width: 768px) {
+        height: 40vh;
+      }
+
       .background-square {
         background-color: #F1F2F2;
         grid-area: 1/1/8/9;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/9;
+        }
       }
 
       .rounded-square {
         background-color: #CFDEE7;
         grid-area: 6/1/9/7;
         border-radius: 0px 100rem 100rem 0px;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/4;
+        }
       }
 
     }
@@ -224,15 +260,27 @@ body {
       height: 70vh;
       border: 2px solid black;
 
+      @media screen and (min-width: 768px) {
+        height: 40vh;
+      }
+
       .background-square {
         background-color: #F1F2F2;
         grid-area: 1/1/8/9;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/9;
+        }
       }
 
       .rounded-square {
         background-color: #CFDEE7;
         grid-area: 6/3/9/9;
         border-radius: 100rem 0px 0px 100rem;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/6/9/9;
+        }
       }
 
     }
@@ -245,15 +293,27 @@ body {
       height: 70vh;
       border: 2px solid black;
 
+      @media screen and (min-width: 768px) {
+        height: 40vh;
+      }
+
       .background-square {
         background-color: #F1F2F2;
         grid-area: 1/1/8/9;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/9;
+        }
       }
 
       .rounded-square {
         background-color: #CFDEE7;
         grid-area: 6/1/9/7;
         border-radius: 0px 100rem 100rem 0px;
+
+        @media screen and (min-width: 768px) {
+          grid-area: 1/1/9/4;
+        }
       }
 
     }

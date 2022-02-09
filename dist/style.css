@@ -92,14 +92,29 @@ body .projects .projects__section-one {
   height: 70vh;
   border: 2px solid black;
 }
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-one {
+    height: 40vh;
+  }
+}
 body .projects .projects__section-one .background-square {
   background-color: #F1F2F2;
   grid-area: 1/1/8/9;
+}
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-one .background-square {
+    grid-area: 1/1/9/9;
+  }
 }
 body .projects .projects__section-one .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/1/9/7;
   border-radius: 0px 100rem 100rem 0px;
+}
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-one .rounded-square {
+    grid-area: 1/1/9/4;
+  }
 }
 body .projects .projects__section-two {
   display: grid;
@@ -109,14 +124,29 @@ body .projects .projects__section-two {
   height: 70vh;
   border: 2px solid black;
 }
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-two {
+    height: 40vh;
+  }
+}
 body .projects .projects__section-two .background-square {
   background-color: #F1F2F2;
   grid-area: 1/1/8/9;
+}
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-two .background-square {
+    grid-area: 1/1/9/9;
+  }
 }
 body .projects .projects__section-two .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/3/9/9;
   border-radius: 100rem 0px 0px 100rem;
+}
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-two .rounded-square {
+    grid-area: 1/6/9/9;
+  }
 }
 body .projects .projects__section-three {
   display: grid;
@@ -126,14 +156,29 @@ body .projects .projects__section-three {
   height: 70vh;
   border: 2px solid black;
 }
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-three {
+    height: 40vh;
+  }
+}
 body .projects .projects__section-three .background-square {
   background-color: #F1F2F2;
   grid-area: 1/1/8/9;
+}
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-three .background-square {
+    grid-area: 1/1/9/9;
+  }
 }
 body .projects .projects__section-three .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/1/9/7;
   border-radius: 0px 100rem 100rem 0px;
+}
+@media screen and (min-width: 768px) {
+  body .projects .projects__section-three .rounded-square {
+    grid-area: 1/1/9/4;
+  }
 }
 body .tech-stack .tech-stack__header {
   color: red;
@@ -174,14 +219,29 @@ body .skills .skills__section-one {
   height: 70vh;
   border: 2px solid black;
 }
+@media screen and (min-width: 768px) {
+  body .skills .skills__section-one {
+    height: 40vh;
+  }
+}
 body .skills .skills__section-one .background-square {
   background-color: #F1F2F2;
   grid-area: 1/1/8/9;
+}
+@media screen and (min-width: 768px) {
+  body .skills .skills__section-one .background-square {
+    grid-area: 1/1/9/9;
+  }
 }
 body .skills .skills__section-one .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/3/9/9;
   border-radius: 100rem 0px 0px 100rem;
+}
+@media screen and (min-width: 768px) {
+  body .skills .skills__section-one .rounded-square {
+    grid-area: 1/6/9/9;
+  }
 }
 body .skills .skills__section-two {
   display: grid;
@@ -191,14 +251,29 @@ body .skills .skills__section-two {
   height: 70vh;
   border: 2px solid black;
 }
+@media screen and (min-width: 768px) {
+  body .skills .skills__section-two {
+    height: 40vh;
+  }
+}
 body .skills .skills__section-two .background-square {
   background-color: #F1F2F2;
   grid-area: 1/1/8/9;
+}
+@media screen and (min-width: 768px) {
+  body .skills .skills__section-two .background-square {
+    grid-area: 1/1/9/9;
+  }
 }
 body .skills .skills__section-two .rounded-square {
   background-color: #CFDEE7;
   grid-area: 6/1/9/7;
   border-radius: 0px 100rem 100rem 0px;
+}
+@media screen and (min-width: 768px) {
+  body .skills .skills__section-two .rounded-square {
+    grid-area: 1/1/9/4;
+  }
 }
 body .contact-bar {
   background-color: #001A4D;
