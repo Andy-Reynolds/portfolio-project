@@ -3,9 +3,13 @@
   margin: 0;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
 body .about-me .about-me__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .about-me .about-me__section {
   display: grid;
@@ -54,6 +58,7 @@ body .about-me .about-me__section .selfie img {
 body .projects .projects__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .projects .projects__section-one {
   display: grid;
@@ -151,6 +156,7 @@ body .projects .projects__section-three .rounded-square {
 body .tech-stack .tech-stack__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .tech-stack .tech-stack__background {
   display: grid;
@@ -176,6 +182,7 @@ body .tech-stack .tech-stack__background .tech-stack__icon-four {
 body .skills .skills__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .skills .skills__section-one {
   display: grid;
@@ -244,6 +251,7 @@ body .contact-bar {
   color: white;
   height: 50px;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 body .contact-bar__title {
   display: flex;

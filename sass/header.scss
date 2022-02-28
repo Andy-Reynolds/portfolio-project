@@ -2,12 +2,14 @@
 
 @import "./reset.scss";
 @import "./variables.scss";
+@import "./typography.scss";
 
 header {
   background-color: $secondary-color;
   height: 600px;
   border-bottom-left-radius: 50% 60px;
-  border-bottom-right-radius: 50% 60px;  
+  border-bottom-right-radius: 50% 60px;
+  font-family: 'Poppins', sans-serif;
 
   .nav-bar {
     background-color: $primary-color;

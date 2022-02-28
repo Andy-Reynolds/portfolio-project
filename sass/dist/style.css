@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +15,7 @@ header {
   height: 600px;
   border-bottom-left-radius: 50% 60px;
   border-bottom-right-radius: 50% 60px;
+  font-family: "Poppins", sans-serif;
 }
 header .nav-bar {
   background-color: #001A4D;
@@ -85,9 +88,13 @@ header h1 {
   margin: 0;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
 body .about-me .about-me__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .about-me .about-me__section {
   display: grid;
@@ -136,6 +143,7 @@ body .about-me .about-me__section .selfie img {
 body .projects .projects__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .projects .projects__section-one {
   display: grid;
@@ -233,6 +241,7 @@ body .projects .projects__section-three .rounded-square {
 body .tech-stack .tech-stack__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .tech-stack .tech-stack__background {
   display: grid;
@@ -258,6 +267,7 @@ body .tech-stack .tech-stack__background .tech-stack__icon-four {
 body .skills .skills__header {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 body .skills .skills__section-one {
   display: grid;
@@ -326,6 +336,7 @@ body .contact-bar {
   color: white;
   height: 50px;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 body .contact-bar__title {
   display: flex;
