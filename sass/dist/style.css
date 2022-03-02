@@ -92,9 +92,8 @@ body .about-me .about-me__header {
 }
 body .about-me .about-me__section {
   display: grid;
-  grid-template: repeat(9 1fr);
-  margin-inline: auto;
-  width: 100%;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   height: 70vh;
 }
 @media screen and (min-width: 768px) {
@@ -104,7 +103,7 @@ body .about-me .about-me__section {
 }
 body .about-me .about-me__section .background-square {
   background-color: #F1F2F2;
-  grid-area: 1/1/8/9;
+  grid-area: 1/1/9/11;
 }
 @media screen and (min-width: 768px) {
   body .about-me .about-me__section .background-square {
@@ -113,7 +112,7 @@ body .about-me .about-me__section .background-square {
 }
 body .about-me .about-me__section .rounded-square {
   background-color: #CFDEE7;
-  grid-area: 6/3/9/9;
+  grid-area: 7/3/11/11;
   border-radius: 100rem 0px 0px 100rem;
 }
 @media screen and (min-width: 768px) {
@@ -122,17 +121,15 @@ body .about-me .about-me__section .rounded-square {
   }
 }
 body .about-me .about-me__section .selfie {
-  z-index: 10;
-  grid-row-end: 9;
-  grid-column-end: 9;
-  height: 200px;
-  width: 200px;
-  justify-self: end;
-  align-self: flex-end;
+  z-index: 99;
+  grid-area: 6/6/11/11;
+  position: relative;
 }
 body .about-me .about-me__section .selfie img {
   max-height: 100%;
   max-width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 body .projects .projects__header {
   display: flex;
