@@ -85,149 +85,102 @@ body header h1 {
   position: relative;
   top: 200px;
 }
-body .about-me .about-me__header {
+body .section-header {
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
-body .about-me .about-me__section {
+body .section-a {
   display: grid;
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(10, 1fr);
   height: 70vh;
 }
 @media screen and (min-width: 768px) {
-  body .about-me .about-me__section {
+  body .section-a {
     height: 40vh;
   }
 }
-body .about-me .about-me__section .background-square {
+body .section-a .background-square-a {
   background-color: #F1F2F2;
   grid-area: 1/1/9/11;
 }
 @media screen and (min-width: 768px) {
-  body .about-me .about-me__section .background-square {
-    grid-area: 1/1/9/9;
+  body .section-a .background-square-a {
+    grid-area: 1/1/11/11;
   }
 }
-body .about-me .about-me__section .rounded-square {
+body .section-a .rounded-square-a {
   background-color: #CFDEE7;
   grid-area: 7/3/11/11;
   border-radius: 100rem 0px 0px 100rem;
 }
 @media screen and (min-width: 768px) {
-  body .about-me .about-me__section .rounded-square {
-    grid-area: 1/6/9/9;
+  body .section-a .rounded-square-a {
+    grid-area: 4/6/11/11;
   }
 }
-body .about-me .about-me__section .selfie {
+body .section-a .image-a {
   z-index: 99;
   grid-area: 6/6/11/11;
   position: relative;
 }
-body .about-me .about-me__section .selfie img {
+@media screen and (min-width: 768px) {
+  body .section-a .image-a {
+    grid-area: 2/8/11/11;
+  }
+}
+body .section-a .image-a img {
   max-height: 100%;
   max-width: 100%;
   position: absolute;
   bottom: 0;
 }
-body .projects .projects__header {
-  display: flex;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-}
-body .projects .projects__section-one {
+body .section-b {
   display: grid;
-  grid-template: repeat(9 1fr);
-  margin-inline: auto;
-  width: 100%;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   height: 70vh;
 }
 @media screen and (min-width: 768px) {
-  body .projects .projects__section-one {
+  body .section-b {
     height: 40vh;
   }
 }
-body .projects .projects__section-one .background-square {
+body .section-b .background-square-b {
   background-color: #F1F2F2;
-  grid-area: 1/1/8/9;
+  grid-area: 1/1/9/11;
 }
 @media screen and (min-width: 768px) {
-  body .projects .projects__section-one .background-square {
-    grid-area: 1/1/9/9;
+  body .section-b .background-square-b {
+    grid-area: 1/1/11/11;
   }
 }
-body .projects .projects__section-one .rounded-square {
+body .section-b .rounded-square-b {
   background-color: #CFDEE7;
-  grid-area: 6/1/9/7;
-  border-radius: 0px 100rem 100rem 0px;
+  grid-area: 7/1/11/9;
+  border-radius: 0rem 100px 100px 0rem;
 }
 @media screen and (min-width: 768px) {
-  body .projects .projects__section-one .rounded-square {
-    grid-area: 1/1/9/4;
+  body .section-b .rounded-square-b {
+    grid-area: 4/1/11/6;
   }
 }
-body .projects .projects__section-two {
-  display: grid;
-  grid-template: repeat(9 1fr);
-  margin-inline: auto;
-  width: 100%;
-  height: 70vh;
+body .section-b .image-b {
+  z-index: 99;
+  grid-area: 6/1/11/6;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
-  body .projects .projects__section-two {
-    height: 40vh;
+  body .section-b .image-b {
+    grid-area: 2/1/11/4;
   }
 }
-body .projects .projects__section-two .background-square {
-  background-color: #F1F2F2;
-  grid-area: 1/1/8/9;
-}
-@media screen and (min-width: 768px) {
-  body .projects .projects__section-two .background-square {
-    grid-area: 1/1/9/9;
-  }
-}
-body .projects .projects__section-two .rounded-square {
-  background-color: #CFDEE7;
-  grid-area: 6/3/9/9;
-  border-radius: 100rem 0px 0px 100rem;
-}
-@media screen and (min-width: 768px) {
-  body .projects .projects__section-two .rounded-square {
-    grid-area: 1/6/9/9;
-  }
-}
-body .projects .projects__section-three {
-  display: grid;
-  grid-template: repeat(9 1fr);
-  margin-inline: auto;
-  width: 100%;
-  height: 70vh;
-}
-@media screen and (min-width: 768px) {
-  body .projects .projects__section-three {
-    height: 40vh;
-  }
-}
-body .projects .projects__section-three .background-square {
-  background-color: #F1F2F2;
-  grid-area: 1/1/8/9;
-}
-@media screen and (min-width: 768px) {
-  body .projects .projects__section-three .background-square {
-    grid-area: 1/1/9/9;
-  }
-}
-body .projects .projects__section-three .rounded-square {
-  background-color: #CFDEE7;
-  grid-area: 6/1/9/7;
-  border-radius: 0px 100rem 100rem 0px;
-}
-@media screen and (min-width: 768px) {
-  body .projects .projects__section-three .rounded-square {
-    grid-area: 1/1/9/4;
-  }
+body .section-b .image-b img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 body .tech-stack .tech-stack__header {
   display: flex;
@@ -254,73 +207,6 @@ body .tech-stack .tech-stack__background .tech-stack__icon-three {
 }
 body .tech-stack .tech-stack__background .tech-stack__icon-four {
   grid-area: 4/4/5/5;
-}
-body .skills .skills__header {
-  display: flex;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-}
-body .skills .skills__section-one {
-  display: grid;
-  grid-template: repeat(9 1fr);
-  margin-inline: auto;
-  width: 100%;
-  height: 70vh;
-}
-@media screen and (min-width: 768px) {
-  body .skills .skills__section-one {
-    height: 40vh;
-  }
-}
-body .skills .skills__section-one .background-square {
-  background-color: #F1F2F2;
-  grid-area: 1/1/8/9;
-}
-@media screen and (min-width: 768px) {
-  body .skills .skills__section-one .background-square {
-    grid-area: 1/1/9/9;
-  }
-}
-body .skills .skills__section-one .rounded-square {
-  background-color: #CFDEE7;
-  grid-area: 6/3/9/9;
-  border-radius: 100rem 0px 0px 100rem;
-}
-@media screen and (min-width: 768px) {
-  body .skills .skills__section-one .rounded-square {
-    grid-area: 1/6/9/9;
-  }
-}
-body .skills .skills__section-two {
-  display: grid;
-  grid-template: repeat(9 1fr);
-  margin-inline: auto;
-  width: 100%;
-  height: 70vh;
-}
-@media screen and (min-width: 768px) {
-  body .skills .skills__section-two {
-    height: 40vh;
-  }
-}
-body .skills .skills__section-two .background-square {
-  background-color: #F1F2F2;
-  grid-area: 1/1/8/9;
-}
-@media screen and (min-width: 768px) {
-  body .skills .skills__section-two .background-square {
-    grid-area: 1/1/9/9;
-  }
-}
-body .skills .skills__section-two .rounded-square {
-  background-color: #CFDEE7;
-  grid-area: 6/1/9/7;
-  border-radius: 0px 100rem 100rem 0px;
-}
-@media screen and (min-width: 768px) {
-  body .skills .skills__section-two .rounded-square {
-    grid-area: 1/1/9/4;
-  }
 }
 body .contact-bar {
   background-color: #001A4D;

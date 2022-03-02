@@ -92,162 +92,104 @@ body {
   
   }
 
-  .about-me {
+  .section-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
 
-    .about-me__header {
-      display: flex;
-      justify-content: center;
-      font-family: 'Poppins', sans-serif;
+  .section-a {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    height: 70vh;
+
+    @media screen and (min-width: 768px) {
+      height: 40vh;
     }
 
-    .about-me__section {
-      display: grid;
-      grid-template-rows: repeat(10, 1fr);
-      grid-template-columns: repeat(10, 1fr);
-      height: 70vh;
+    .background-square-a {
+      background-color: $background-square;
+      grid-area: 1/1/9/11;
 
       @media screen and (min-width: 768px) {
-        height: 40vh;
+        grid-area: 1/1/11/11;
       }
-
-      .background-square {
-        background-color: $background-square;
-        grid-area: 1/1/9/11;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/9;
-        }
-      }
-
-      .rounded-square {
-        background-color: $secondary-color;
-        grid-area: 7/3/11/11;
-        border-radius: 100rem 0px 0px 100rem;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/6/9/9;
-        }
-      }
-
-      .selfie {
-        z-index: 99;
-        grid-area: 6/6/11/11;
-        position: relative;
-
-        img {
-          max-height: 100%;
-          max-width: 100%;
-          position: absolute;
-          bottom: 0;
-        }
-      }
-
     }
 
-  }  
-
-  .projects {
-
-    .projects__header {
-      display: flex;
-      justify-content: center;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    .projects__section-one {
-      display: grid;
-      grid-template: repeat(9 1fr);
-      margin-inline: auto;
-      width: 100%;
-      height: 70vh;
-      
-      @media screen and (min-width: 768px) {
-        height: 40vh;
-      }
-
-      .background-square {
-        background-color: $background-square;
-        grid-area: 1/1/8/9;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/9;
-        }
-      }
-
-      .rounded-square {
-        background-color: $secondary-color;
-        grid-area: 6/1/9/7;
-        border-radius: 0px 100rem 100rem 0px;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/4;
-        }
-      }
-
-    }
-
-    .projects__section-two {
-      display: grid;
-      grid-template: repeat(9 1fr);
-      margin-inline: auto;
-      width: 100%;
-      height: 70vh;
+    .rounded-square-a {
+      background-color: $secondary-color;
+      grid-area: 7/3/11/11;
+      border-radius: 100rem 0px 0px 100rem;
 
       @media screen and (min-width: 768px) {
-        height: 40vh;
+        grid-area: 4/6/11/11;
       }
-
-      .background-square {
-        background-color: $background-square;
-        grid-area: 1/1/8/9;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/9;
-        }
-      }
-
-      .rounded-square {
-        background-color: $secondary-color;
-        grid-area: 6/3/9/9;
-        border-radius: 100rem 0px 0px 100rem;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/6/9/9;
-        }
-      }
-
     }
 
-    .projects__section-three {
-      display: grid;
-      grid-template: repeat(9 1fr);
-      margin-inline: auto;
-      width: 100%;
-      height: 70vh;
+    .image-a {
+      z-index: 99;
+      grid-area: 6/6/11/11;
+      position: relative;
 
       @media screen and (min-width: 768px) {
-        height: 40vh;
+        grid-area: 2/8/11/11;
       }
 
-      .background-square {
-        background-color: $background-square;
-        grid-area: 1/1/8/9;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+    }
 
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/9;
-        }
+  }
+
+  .section-b {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    height: 70vh;
+
+    @media screen and (min-width: 768px) {
+      height: 40vh;
+    }
+
+    .background-square-b {
+      background-color: $background-square;
+      grid-area: 1/1/9/11;
+
+      @media screen and (min-width: 768px) {
+        grid-area: 1/1/11/11;
+      }
+    }
+
+    .rounded-square-b {
+      background-color: $secondary-color;
+      grid-area: 7/1/11/9;
+      border-radius: 0rem 100px 100px 0rem;
+
+      @media screen and (min-width: 768px) {
+        grid-area: 4/1/11/6;
+      }
+    }
+
+    .image-b {
+      z-index: 99;
+      grid-area: 6/1/11/6;
+      position: relative;
+
+      @media screen and (min-width: 768px) {
+        grid-area: 2/1/11/4;
       }
 
-      .rounded-square {
-        background-color: $secondary-color;
-        grid-area: 6/1/9/7;
-        border-radius: 0px 100rem 100rem 0px;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/4;
-        }
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+        bottom: 0;
       }
-
     }
 
   }
@@ -289,79 +231,6 @@ body {
 
   }
 
-  .skills {
-
-    .skills__header {
-      display: flex;
-      justify-content: center;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    .skills__section-one {
-      display: grid;
-      grid-template: repeat(9 1fr);
-      margin-inline: auto;
-      width: 100%;
-      height: 70vh;
-
-      @media screen and (min-width: 768px) {
-        height: 40vh;
-      }
-
-      .background-square {
-        background-color: $background-square;
-        grid-area: 1/1/8/9;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/9;
-        }
-      }
-
-      .rounded-square {
-        background-color: $secondary-color;
-        grid-area: 6/3/9/9;
-        border-radius: 100rem 0px 0px 100rem;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/6/9/9;
-        }
-      }
-
-    }
-
-    .skills__section-two {
-      display: grid;
-      grid-template: repeat(9 1fr);
-      margin-inline: auto;
-      width: 100%;
-      height: 70vh;
-
-      @media screen and (min-width: 768px) {
-        height: 40vh;
-      }
-
-      .background-square {
-        background-color: $background-square;
-        grid-area: 1/1/8/9;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/9;
-        }
-      }
-
-      .rounded-square {
-        background-color: $secondary-color;
-        grid-area: 6/1/9/7;
-        border-radius: 0px 100rem 100rem 0px;
-
-        @media screen and (min-width: 768px) {
-          grid-area: 1/1/9/4;
-        }
-      }
-
-    }
-
-  }
 
   .contact-bar {
     background-color: #001A4D;
@@ -390,4 +259,4 @@ body {
 
   }
 
-}
+}  
