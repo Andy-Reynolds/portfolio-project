@@ -53,6 +53,7 @@ body .nav-bar__links {
 @media screen and (min-width: 768px) {
   body .nav-bar__links {
     display: flex;
+    flex-direction: row;
   }
 }
 body .nav-bar__links a {
@@ -69,16 +70,23 @@ body .nav-bar__links a:hover {
 }
 body header {
   background-color: #CFDEE7;
-  height: 600px;
+  height: 80vh;
   border-bottom-left-radius: 50% 60px;
   border-bottom-right-radius: 50% 60px;
   font-family: "Poppins", sans-serif;
-}
-body header h1 {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+body header h1 {
   position: relative;
-  top: 200px;
+  bottom: 50px;
+  font-size: 28px;
+}
+@media screen and (min-width: 768px) {
+  body header h1 {
+    font-size: 40px;
+  }
 }
 body .section-header {
   display: flex;
@@ -99,6 +107,15 @@ body .section-a {
 body .section-a .background-square-a {
   background-color: #F1F2F2;
   grid-area: 1/1/9/11;
+}
+body .section-a .background-square-a .section-paragraph-a {
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  body .section-a .background-square-a .section-paragraph-a {
+    width: 40%;
+    margin: 40px;
+  }
 }
 @media screen and (min-width: 768px) {
   body .section-a .background-square-a {
@@ -151,10 +168,19 @@ body .section-b .background-square-b {
     grid-area: 1/1/11/11;
   }
 }
+body .section-b .background-square-b .section-paragraph-b {
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  body .section-b .background-square-b .section-paragraph-b {
+    width: 40%;
+    margin: 40px;
+  }
+}
 body .section-b .rounded-square-b {
   background-color: #CFDEE7;
   grid-area: 7/1/11/9;
-  border-radius: 0rem 100px 100px 0rem;
+  border-radius: 0px 100rem 100rem 0px;
 }
 @media screen and (min-width: 768px) {
   body .section-b .rounded-square-b {
