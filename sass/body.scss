@@ -1,11 +1,9 @@
-
-
 @import "./reset.scss";
 @import "./variables.scss";
 @import "./typography.scss";
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   .nav-bar {
     background-color: $primary-color;
@@ -27,7 +25,6 @@ body {
       justify-content: space-between;
       width: 30px;
       height: 20px;
-
 
       @media screen and (min-width: 768px) {
         display: none;
@@ -70,23 +67,20 @@ body {
           color: $primary-color;
         }
       }
-
     }
-
-
-  }  
+  }
 
   header {
     background-color: $secondary-color;
     height: 80vh;
     border-bottom-left-radius: 50% 60px;
     border-bottom-right-radius: 50% 60px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-  
-  
+    text-align: center;
+
     h1 {
       position: relative;
       bottom: 50px;
@@ -96,13 +90,12 @@ body {
         font-size: 40px;
       }
     }
-  
   }
 
   .section-header {
     display: flex;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .section-a {
@@ -159,7 +152,6 @@ body {
         bottom: 0;
       }
     }
-
   }
 
   .section-b {
@@ -216,15 +208,13 @@ body {
         bottom: 0;
       }
     }
-
   }
 
   .tech-stack {
-
     .tech-stack__header {
       display: flex;
       justify-content: center;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
     .tech-stack__background {
@@ -251,18 +241,15 @@ body {
       .tech-stack__icon-four {
         grid-area: 4/4/5/5;
       }
-
     }
-
   }
 
-
   .contact-bar {
-    background-color: #001A4D;
+    background-color: #001a4d;
     color: white;
     height: 50px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 
     &__title {
       display: flex;
@@ -281,7 +268,5 @@ body {
         justify-content: center;
       }
     }
-
   }
-
-}  
+}
